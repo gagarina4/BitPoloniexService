@@ -1,0 +1,37 @@
+PODS:
+  - JGProgressHUD (2.0.3)
+  - Socket.IO-Client-Swift (13.3.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.5)
+  - SwiftWebSocket (2.7.0)
+
+DEPENDENCIES:
+  - JGProgressHUD (~> 2.0.3)
+  - Socket.IO-Client-Swift (~> 13.3.0)
+  - SwiftWebSocket (from `https://github.com/tidwall/SwiftWebSocket.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JGProgressHUD
+    - Socket.IO-Client-Swift
+    - Starscream
+
+EXTERNAL SOURCES:
+  SwiftWebSocket:
+    :branch: master
+    :git: https://github.com/tidwall/SwiftWebSocket.git
+
+CHECKOUT OPTIONS:
+  SwiftWebSocket:
+    :commit: 1f3049d4958ffb4e7586e58e158fba80dec86ff7
+    :git: https://github.com/tidwall/SwiftWebSocket.git
+
+SPEC CHECKSUMS:
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  Socket.IO-Client-Swift: 0afb192a562db90d50e3f7f7421c06925a3f0179
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+  SwiftWebSocket: 612c9729fd503cb6b0b8b45390c788686dac306f
+
+PODFILE CHECKSUM: 59c1d34bdb017cece79573d4730f814b8e65fd69
+
+COCOAPODS: 1.5.3
